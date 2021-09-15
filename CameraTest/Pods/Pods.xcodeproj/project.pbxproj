@@ -1,0 +1,1677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+				1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		E55D6D9CE3B34ED87310823EE348579B /* my_flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 849A22C2DED0B4BF8163DE13588D9B65 /* Build configuration list for PBXAggregateTarget "my_flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9A166F6F17A3AF565EE07D30E6528529 /* PBXTargetDependency */,
+			);
+			name = my_flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1E01B36FBB19BD18BA2E30C4D786CED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		220C40B5EBF100A30F9490CF73388125 /* Pods-CameraTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE1E26CB4BB950AE28557C99ADC2166 /* Pods-CameraTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3218D33BD96B59255788CDAEFD789FA2 /* CameraPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5978CF2D64831A623B102C4AADCA5093 /* CameraPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA8F9AD1E8D19AAFFE242D4AE5AE873 /* camera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 292814461ED6C9E95AD21856B070BFAC /* camera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41071409EDA0B1AE1FF3F2D1CF7514CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56B93EEFECD773A141ADD422BE6DB676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6167467BC38ED59A586866B09D6A383A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E6B6CF822C25624B9A972B73BE3F667 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD3E4D3F78C11C33568FFB64BDF6B80 /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7894C8A139FCC13E241543BE09CB042D /* CameraPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770E458528451D83FB1D7C42A308FD7 /* CameraPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ACC88907BD0855115AFCF0417371B016 /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FC884297C433D7E0C43EB3F65A4C2A /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6BB13A9402EE50428E508CEA1889D2 /* Pods-CameraTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE01C595AE6B7F858BFC4F203A65849 /* Pods-CameraTestTests-dummy.m */; };
+		B58E192FB55FAAD5C1BCFF3398FE0D00 /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B9096C17D02FC4D934AD83E28AA3FC /* FlutterPluginRegistrant-dummy.m */; };
+		C68A8C744AB08AF407CB24CE011C7E08 /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A65F2B9008A5201AB55DA1F8E985A9A /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4141B1FF621AAA68BBB0C491FE0A77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DEBAECFE0AA35FF3783BAC7F9C94CF8C /* camera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D49EE0E5BC35415497748CAB552A1 /* camera-dummy.m */; };
+		DFF173F1A419EEA90ED5CF9AE1341DA6 /* Pods-CameraTest-CameraTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C704285A8D82611169B6381BCD1157F0 /* Pods-CameraTest-CameraTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EF142C8AA103D5D864FF6D1117EF5C /* Pods-CameraTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A930B98AC3BF04C3EC207953F70AB /* Pods-CameraTest-dummy.m */; };
+		E27BF1939874EE517E1CC987979AE746 /* Pods-CameraTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940F414E96BC311A11B72C1F9CABFAE6 /* Pods-CameraTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F15ED3E4EC7590B0C2985A56B6394060 /* Pods-CameraTest-CameraTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FFFC0B8AAF99A4F3AF6B726B29941A /* Pods-CameraTest-CameraTestUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021ABCC0444C8BAB7A9D4EEC069A5CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		0BE07B0B56B51FBC1ECC0A79ECEC1DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		1024E87B1FAFE487E7805D2490A6D876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FD1D70EA23451D9DE84943F2C37D06;
+			remoteInfo = "Pods-CameraTest";
+		};
+		2D8C98DE9078067EF27E211FFAC204EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		38C557206F6AF4952B82A46921DD4D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		72C00ABAF1C47A3FFC0B9EB93098D044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		7B2936B6480CA63B6AD51E7DC974CDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55D6D9CE3B34ED87310823EE348579B;
+			remoteInfo = my_flutter;
+		};
+		8220508D88DCAFF92B9ECAF9D202FE28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		905111B25C8575EA85A2704086FC4264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BDAB4CF1E3C54A5085BF6D4261FB6A;
+			remoteInfo = camera;
+		};
+		A6A9E863FD88174269049616153C06D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BDAB4CF1E3C54A5085BF6D4261FB6A;
+			remoteInfo = camera;
+		};
+		B56DB65E401C94CCDF148E69961558FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BDAB4CF1E3C54A5085BF6D4261FB6A;
+			remoteInfo = camera;
+		};
+		C598DF98DA3DD452440DE9A50C7C4904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55D6D9CE3B34ED87310823EE348579B;
+			remoteInfo = my_flutter;
+		};
+		D0CD7B92CC4835C5D5FE7FEB1D25A99B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0116F439549124D8E4B1C514ED1CCA6B /* Pods-CameraTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A65F2B9008A5201AB55DA1F8E985A9A /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		0BE1E26CB4BB950AE28557C99ADC2166 /* Pods-CameraTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraTest-umbrella.h"; sourceTree = "<group>"; };
+		0DFA9A035129E94B6F71706005D90A1C /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
+		1685E393CE26A510258411AF9F018694 /* camera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = camera.modulemap; sourceTree = "<group>"; };
+		1EE5CE570D1E185D9C6E9CA56D37DE65 /* Pods-CameraTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		249F6B78A89A45AAA104677610CACA9C /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		292814461ED6C9E95AD21856B070BFAC /* camera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "camera-umbrella.h"; sourceTree = "<group>"; };
+		2BEE8C010F87BAC2725655F751787844 /* Pods_CameraTest_CameraTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraTest_CameraTestUITests.framework; path = "Pods-CameraTest-CameraTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A7A85751DE580C72024E25B53490FB /* Pods-CameraTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38B9096C17D02FC4D934AD83E28AA3FC /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
+		39BCEF9D73AE9308BDC98702EAB8AFFB /* FlutterPluginRegistrant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterPluginRegistrant-Info.plist"; sourceTree = "<group>"; };
+		3DA27676566DB09C4A198A69516A7470 /* Pods-CameraTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CameraTestTests.modulemap"; sourceTree = "<group>"; };
+		3FCC50A3EB33BE0C7EEE8762AC9A82D9 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		4722FA22CCB47981C66F45DA8525CE86 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		4770E458528451D83FB1D7C42A308FD7 /* CameraPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CameraPlugin.m; path = "../../../../../../../../../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.3/ios/Classes/CameraPlugin.m"; sourceTree = "<group>"; };
+		4C5D06232F48BF3C73A48B48647C2731 /* camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = camera.release.xcconfig; sourceTree = "<group>"; };
+		4FD3E4D3F78C11C33568FFB64BDF6B80 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		532BB95845435EB3A1891E85A1C70AD9 /* Pods-CameraTest-CameraTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTest-CameraTestUITests-Info.plist"; sourceTree = "<group>"; };
+		5978CF2D64831A623B102C4AADCA5093 /* CameraPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraPlugin.h; path = "../../../../../../../../../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.3/ios/Classes/CameraPlugin.h"; sourceTree = "<group>"; };
+		5C3E90AD58E32C40B5293A2885C8AD5B /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		61E148A0D4A34270C5AFCCD49A05DE56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.3/LICENSE"; sourceTree = "<group>"; };
+		6BCD38A26E2FCD3CDA750646F292E0F2 /* Pods-CameraTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CameraTest.modulemap"; sourceTree = "<group>"; };
+		6D93EB0535AF26AF69B080F8581A032A /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71970E6EE11866307D2DBFC56A040095 /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7640A7201FDD504C25BA75D50C7C94FF /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
+		7AE01C595AE6B7F858BFC4F203A65849 /* Pods-CameraTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraTestTests-dummy.m"; sourceTree = "<group>"; };
+		7D565E6C0D5E50CBD636570530C4D9D8 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		82C0EBB48BF7775357D0B8D774AE95D2 /* my_flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = my_flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		902E9D908675CD80BE919C19641D526B /* Pods-CameraTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTest.release.xcconfig"; sourceTree = "<group>"; };
+		940F414E96BC311A11B72C1F9CABFAE6 /* Pods-CameraTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraTestTests-umbrella.h"; sourceTree = "<group>"; };
+		9A2735A33DFE3B58531B766285440519 /* my_flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = my_flutter.release.xcconfig; sourceTree = "<group>"; };
+		9A6B9B79C868469D48064AE68DEAF8F1 /* Pods-CameraTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTest-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3AFDBDA13CB49B8D0D5EC85120C5AD0 /* camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = camera.debug.xcconfig; sourceTree = "<group>"; };
+		AAED82D4FA0EEDDA23C42483446B7290 /* camera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = camera.podspec; path = "../../../../../../../../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.3/ios/camera.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4A930B98AC3BF04C3EC207953F70AB /* Pods-CameraTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraTest-dummy.m"; sourceTree = "<group>"; };
+		AF28B124BEC909855B84C430A9E0CC7B /* Pods-CameraTest-CameraTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTest-CameraTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B37CFDB9BF78F9934FE9E480D990A31D /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		B5D52D8AEEC3E774D19ED52FAC9CB363 /* camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = camera.framework; path = camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74CED8348A4EA91511A0F2DE8738BB5 /* Pods-CameraTest-CameraTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTest-CameraTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA4879EFDA92A15675CF6B40F5CACE7F /* Pods-CameraTest-CameraTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CameraTest-CameraTestUITests.modulemap"; sourceTree = "<group>"; };
+		BAA60DACC762D57208A9CEDF6AB77E54 /* Pods-CameraTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE307C5F80E30D9FFCE445E8D441E9D6 /* Pods_CameraTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraTestTests.framework; path = "Pods-CameraTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E710AAEC1125F17D536B7BDBC4D5E6 /* camera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "camera-Info.plist"; sourceTree = "<group>"; };
+		C4C106E29ECB7BCFF775C9B13A72C0CE /* Pods_CameraTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraTest.framework; path = "Pods-CameraTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F0B0953451BACD6D0857D105450208 /* Pods-CameraTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C704285A8D82611169B6381BCD1157F0 /* Pods-CameraTest-CameraTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraTest-CameraTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		C8FFFC0B8AAF99A4F3AF6B726B29941A /* Pods-CameraTest-CameraTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraTest-CameraTestUITests-dummy.m"; sourceTree = "<group>"; };
+		C968C5010FF1F9CE39878A6DDE84348A /* my_flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = my_flutter.debug.xcconfig; sourceTree = "<group>"; };
+		D1196FED512080FA63EA5201BB78418A /* Pods-CameraTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTestTests-Info.plist"; sourceTree = "<group>"; };
+		D3FC884297C433D7E0C43EB3F65A4C2A /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
+		D46EBD0A7E96815D5D7E79196CF4C77D /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D51D2747E57CF8D2E48F9EBAF6205A1C /* Pods-CameraTest-CameraTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraTest-CameraTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D879547F03E83E55420C3E1353C3DB4E /* Pods-CameraTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraTest-frameworks.sh"; sourceTree = "<group>"; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterPluginRegistrant.framework; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC9DE86C12907128CF65589ADD0E0D5 /* camera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "camera-prefix.pch"; sourceTree = "<group>"; };
+		E0823703A94279B0D0A6ADF3519A61A2 /* Pods-CameraTest-CameraTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraTest-CameraTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E471E7DA30E9F729FE02814804DE2443 /* Pods-CameraTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB7FAA4A35A6F8C3113D2C4CA37F613A /* Pods-CameraTest-CameraTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTest-CameraTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C0A6BC2B9578AFE7DA0AD099074B6E /* Pods-CameraTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3D49EE0E5BC35415497748CAB552A1 /* camera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "camera-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C854A862EE71A3E0DA454DD6A31CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41071409EDA0B1AE1FF3F2D1CF7514CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBBC44438C6A528D5E29D9414569E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167467BC38ED59A586866B09D6A383A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FC4F45C44164E62B3DF7179C371FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B93EEFECD773A141ADD422BE6DB676 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72D16628198836EDBB4E407DF002ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E01B36FBB19BD18BA2E30C4D786CED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EB79B65FAA3C68BBF9F418C69D0764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4141B1FF621AAA68BBB0C491FE0A77E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF36790DAF102C70A27EA72D9466D99 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F563BAC714232B77AB18657CFFD4EE5C /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		19C181101A23CA842C639F8C592EB757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E90AD58E32C40B5293A2885C8AD5B /* Flutter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B0546E366D2A53DFB0AF67113727D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249F6B78A89A45AAA104677610CACA9C /* App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2519960BD08A325DCBD19172B73D99B9 /* lol */ = {
+			isa = PBXGroup;
+			children = (
+				56974CBAAB24196B0A6E91BF7C7EAA30 /* CameraTest */,
+			);
+			name = lol;
+			path = lol;
+			sourceTree = "<group>";
+		};
+		251CD85E3A90C0ED5E059BAC570625F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5978CF2D64831A623B102C4AADCA5093 /* CameraPlugin.h */,
+				4770E458528451D83FB1D7C42A308FD7 /* CameraPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2575A607D12A8C9BB8491419C03F604D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AAED82D4FA0EEDDA23C42483446B7290 /* camera.podspec */,
+				61E148A0D4A34270C5AFCCD49A05DE56 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3BE890F6750E518362F92A393BDD613B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				B646478408ECEBFC7FE80FE1F92275FA /* .. */,
+				2575A607D12A8C9BB8491419C03F604D /* Pod */,
+				AB5DDEFA943282E1A4498F04A9A5548E /* Support Files */,
+			);
+			name = camera;
+			path = ../../my_flutter/.ios/.symlinks/plugins/camera/ios;
+			sourceTree = "<group>";
+		};
+		3F15C15C3F651176BB2C795ADFFA1483 /* my_flutter */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC0EA7DE6B1CD0E38C7188F315BA4B /* .ios */,
+			);
+			name = my_flutter;
+			path = my_flutter;
+			sourceTree = "<group>";
+		};
+		45AA08729D67C8A74A66491426580983 /* Pods-CameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				6BCD38A26E2FCD3CDA750646F292E0F2 /* Pods-CameraTest.modulemap */,
+				38A7A85751DE580C72024E25B53490FB /* Pods-CameraTest-acknowledgements.markdown */,
+				0116F439549124D8E4B1C514ED1CCA6B /* Pods-CameraTest-acknowledgements.plist */,
+				AD4A930B98AC3BF04C3EC207953F70AB /* Pods-CameraTest-dummy.m */,
+				D879547F03E83E55420C3E1353C3DB4E /* Pods-CameraTest-frameworks.sh */,
+				9A6B9B79C868469D48064AE68DEAF8F1 /* Pods-CameraTest-Info.plist */,
+				0BE1E26CB4BB950AE28557C99ADC2166 /* Pods-CameraTest-umbrella.h */,
+				C4F0B0953451BACD6D0857D105450208 /* Pods-CameraTest.debug.xcconfig */,
+				902E9D908675CD80BE919C19641D526B /* Pods-CameraTest.release.xcconfig */,
+			);
+			name = "Pods-CameraTest";
+			path = "Target Support Files/Pods-CameraTest";
+			sourceTree = "<group>";
+		};
+		46D84142CB9E3336E2B2B9DC3F59696B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				19C181101A23CA842C639F8C592EB757 /* Frameworks */,
+				59B0E562324F66E12D009FA67DD785E7 /* Pod */,
+				898E97EFACF693521183261E2A357AD0 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../../my_flutter/.ios/Flutter/engine;
+			sourceTree = "<group>";
+		};
+		4DFB0D2FB39C786746639B3A423B77FB /* Pods-CameraTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA27676566DB09C4A198A69516A7470 /* Pods-CameraTestTests.modulemap */,
+				1EE5CE570D1E185D9C6E9CA56D37DE65 /* Pods-CameraTestTests-acknowledgements.markdown */,
+				E471E7DA30E9F729FE02814804DE2443 /* Pods-CameraTestTests-acknowledgements.plist */,
+				7AE01C595AE6B7F858BFC4F203A65849 /* Pods-CameraTestTests-dummy.m */,
+				D1196FED512080FA63EA5201BB78418A /* Pods-CameraTestTests-Info.plist */,
+				940F414E96BC311A11B72C1F9CABFAE6 /* Pods-CameraTestTests-umbrella.h */,
+				F9C0A6BC2B9578AFE7DA0AD099074B6E /* Pods-CameraTestTests.debug.xcconfig */,
+				BAA60DACC762D57208A9CEDF6AB77E54 /* Pods-CameraTestTests.release.xcconfig */,
+			);
+			name = "Pods-CameraTestTests";
+			path = "Target Support Files/Pods-CameraTestTests";
+			sourceTree = "<group>";
+		};
+		56974CBAAB24196B0A6E91BF7C7EAA30 /* CameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				3F15C15C3F651176BB2C795ADFFA1483 /* my_flutter */,
+			);
+			name = CameraTest;
+			path = CameraTest;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59B0E562324F66E12D009FA67DD785E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D93EB0535AF26AF69B080F8581A032A /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		609BF3883702075249D69F00606DB406 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FCC50A3EB33BE0C7EEE8762AC9A82D9 /* FlutterPluginRegistrant.modulemap */,
+				38B9096C17D02FC4D934AD83E28AA3FC /* FlutterPluginRegistrant-dummy.m */,
+				39BCEF9D73AE9308BDC98702EAB8AFFB /* FlutterPluginRegistrant-Info.plist */,
+				7640A7201FDD504C25BA75D50C7C94FF /* FlutterPluginRegistrant-prefix.pch */,
+				D3FC884297C433D7E0C43EB3F65A4C2A /* FlutterPluginRegistrant-umbrella.h */,
+				4722FA22CCB47981C66F45DA8525CE86 /* FlutterPluginRegistrant.debug.xcconfig */,
+				0DFA9A035129E94B6F71706005D90A1C /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../CameraTest/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		6E35817EDA617D0F06B1B825415C5910 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45AA08729D67C8A74A66491426580983 /* Pods-CameraTest */,
+				C2255F9B2D490706A0E7B9C43A580577 /* Pods-CameraTest-CameraTestUITests */,
+				4DFB0D2FB39C786746639B3A423B77FB /* Pods-CameraTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79AE457EE0DDDC33965E343931A48ED8 /* LCL */ = {
+			isa = PBXGroup;
+			children = (
+				2519960BD08A325DCBD19172B73D99B9 /* lol */,
+			);
+			name = LCL;
+			path = LCL;
+			sourceTree = "<group>";
+		};
+		7B0334E2991266706A867FE5D3527D06 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				251CD85E3A90C0ED5E059BAC570625F4 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		7F434F19F845E4D5CDF9A0CAF5BB444D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF0CE947C4FB9B7F4C2BB1F2C91A20 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		898E97EFACF693521183261E2A357AD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71970E6EE11866307D2DBFC56A040095 /* Flutter-xcframeworks.sh */,
+				7D565E6C0D5E50CBD636570530C4D9D8 /* Flutter.debug.xcconfig */,
+				B37CFDB9BF78F9934FE9E480D990A31D /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../CameraTest/Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		8AA66DBD14EFB3E32A2743D095609374 /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				0A65F2B9008A5201AB55DA1F8E985A9A /* GeneratedPluginRegistrant.h */,
+				4FD3E4D3F78C11C33568FFB64BDF6B80 /* GeneratedPluginRegistrant.m */,
+				ABB67D978EE6B8FBD2BE285D48EC8913 /* Pod */,
+				609BF3883702075249D69F00606DB406 /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = ../../my_flutter/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		AB5DDEFA943282E1A4498F04A9A5548E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1685E393CE26A510258411AF9F018694 /* camera.modulemap */,
+				FE3D49EE0E5BC35415497748CAB552A1 /* camera-dummy.m */,
+				C0E710AAEC1125F17D536B7BDBC4D5E6 /* camera-Info.plist */,
+				DFC9DE86C12907128CF65589ADD0E0D5 /* camera-prefix.pch */,
+				292814461ED6C9E95AD21856B070BFAC /* camera-umbrella.h */,
+				A3AFDBDA13CB49B8D0D5EC85120C5AD0 /* camera.debug.xcconfig */,
+				4C5D06232F48BF3C73A48B48647C2731 /* camera.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../CameraTest/Pods/Target Support Files/camera";
+			sourceTree = "<group>";
+		};
+		ABB67D978EE6B8FBD2BE285D48EC8913 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D46EBD0A7E96815D5D7E79196CF4C77D /* FlutterPluginRegistrant.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B23F7052414CDBF2A4268EBFD1682328 /* my_flutter */ = {
+			isa = PBXGroup;
+			children = (
+				1B0546E366D2A53DFB0AF67113727D3A /* Frameworks */,
+				F4437C06D2DC5C80713B87EDDCBD37AD /* Pod */,
+				B81ED51325725CDAEDD6BB61F227CF70 /* Support Files */,
+			);
+			name = my_flutter;
+			path = ../../my_flutter/.ios/Flutter;
+			sourceTree = "<group>";
+		};
+		B646478408ECEBFC7FE80FE1F92275FA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E03FDD8CFEB22FB5CEC53DD6CA892C8F /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.3/ios";
+			sourceTree = "<group>";
+		};
+		B81ED51325725CDAEDD6BB61F227CF70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C968C5010FF1F9CE39878A6DDE84348A /* my_flutter.debug.xcconfig */,
+				9A2735A33DFE3B58531B766285440519 /* my_flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../CameraTest/Pods/Target Support Files/my_flutter";
+			sourceTree = "<group>";
+		};
+		C1012AE67DB7C5305670D9C4EC0F75CA /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FD36A05A6284D9080EA183F3475E491B /* camera */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		C2255F9B2D490706A0E7B9C43A580577 /* Pods-CameraTest-CameraTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4879EFDA92A15675CF6B40F5CACE7F /* Pods-CameraTest-CameraTestUITests.modulemap */,
+				E0823703A94279B0D0A6ADF3519A61A2 /* Pods-CameraTest-CameraTestUITests-acknowledgements.markdown */,
+				B74CED8348A4EA91511A0F2DE8738BB5 /* Pods-CameraTest-CameraTestUITests-acknowledgements.plist */,
+				C8FFFC0B8AAF99A4F3AF6B726B29941A /* Pods-CameraTest-CameraTestUITests-dummy.m */,
+				D51D2747E57CF8D2E48F9EBAF6205A1C /* Pods-CameraTest-CameraTestUITests-frameworks.sh */,
+				532BB95845435EB3A1891E85A1C70AD9 /* Pods-CameraTest-CameraTestUITests-Info.plist */,
+				C704285A8D82611169B6381BCD1157F0 /* Pods-CameraTest-CameraTestUITests-umbrella.h */,
+				EB7FAA4A35A6F8C3113D2C4CA37F613A /* Pods-CameraTest-CameraTestUITests.debug.xcconfig */,
+				AF28B124BEC909855B84C430A9E0CC7B /* Pods-CameraTest-CameraTestUITests.release.xcconfig */,
+			);
+			name = "Pods-CameraTest-CameraTestUITests";
+			path = "Target Support Files/Pods-CameraTest-CameraTestUITests";
+			sourceTree = "<group>";
+		};
+		C82957B2D134537EA0413E0FC72ADCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D52D8AEEC3E774D19ED52FAC9CB363 /* camera.framework */,
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */,
+				C4C106E29ECB7BCFF775C9B13A72C0CE /* Pods_CameraTest.framework */,
+				2BEE8C010F87BAC2725655F751787844 /* Pods_CameraTest_CameraTestUITests.framework */,
+				BE307C5F80E30D9FFCE445E8D441E9D6 /* Pods_CameraTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99F664352C82F7789772AB926BF80F8 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				C1012AE67DB7C5305670D9C4EC0F75CA /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F90707012C38BA36B821A5FB8CA179A2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C82957B2D134537EA0413E0FC72ADCAC /* Products */,
+				6E35817EDA617D0F06B1B825415C5910 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03FDD8CFEB22FB5CEC53DD6CA892C8F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				0FF36790DAF102C70A27EA72D9466D99 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E2CC0EA7DE6B1CD0E38C7188F315BA4B /* .ios */ = {
+			isa = PBXGroup;
+			children = (
+				C99F664352C82F7789772AB926BF80F8 /* .symlinks */,
+			);
+			name = .ios;
+			path = .ios;
+			sourceTree = "<group>";
+		};
+		F116C3F727C3ED35016A17563FDC2331 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F259D13BD54ADB586205FAB7E6AD53C1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F259D13BD54ADB586205FAB7E6AD53C1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				79AE457EE0DDDC33965E343931A48ED8 /* LCL */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F4437C06D2DC5C80713B87EDDCBD37AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82C0EBB48BF7775357D0B8D774AE95D2 /* my_flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F4EF0CE947C4FB9B7F4C2BB1F2C91A20 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F116C3F727C3ED35016A17563FDC2331 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F563BAC714232B77AB18657CFFD4EE5C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				7F434F19F845E4D5CDF9A0CAF5BB444D /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F90707012C38BA36B821A5FB8CA179A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BE890F6750E518362F92A393BDD613B /* camera */,
+				46D84142CB9E3336E2B2B9DC3F59696B /* Flutter */,
+				8AA66DBD14EFB3E32A2743D095609374 /* FlutterPluginRegistrant */,
+				B23F7052414CDBF2A4268EBFD1682328 /* my_flutter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FD36A05A6284D9080EA183F3475E491B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				7B0334E2991266706A867FE5D3527D06 /* ios */,
+			);
+			name = camera;
+			path = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1832FB4275A803E754D75CA344091D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C40B5EBF100A30F9490CF73388125 /* Pods-CameraTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5114C1455F7EFC527EB179EC7500AA07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC88907BD0855115AFCF0417371B016 /* FlutterPluginRegistrant-umbrella.h in Headers */,
+				C68A8C744AB08AF407CB24CE011C7E08 /* GeneratedPluginRegistrant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C861F640CA57537C31F67CBCBF88BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA8F9AD1E8D19AAFFE242D4AE5AE873 /* camera-umbrella.h in Headers */,
+				3218D33BD96B59255788CDAEFD789FA2 /* CameraPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44BF1AD1E921DFE6D078FD71F2D5A6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27BF1939874EE517E1CC987979AE746 /* Pods-CameraTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0789E7875999EBEA2C03706E92D9F27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF173F1A419EEA90ED5CF9AE1341DA6 /* Pods-CameraTest-CameraTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18FD1D70EA23451D9DE84943F2C37D06 /* Pods-CameraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C792E54AC4475FF5A5E1AFC957AE2D /* Build configuration list for PBXNativeTarget "Pods-CameraTest" */;
+			buildPhases = (
+				1832FB4275A803E754D75CA344091D02 /* Headers */,
+				90F34F721A498921ECF68EAA89ACE05C /* Sources */,
+				A72D16628198836EDBB4E407DF002ACB /* Frameworks */,
+				3D43FF27E6F2B329AFAECD9498DC84CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489C2A67E0DFF640218C554810758A21 /* PBXTargetDependency */,
+				5B16ED5A96435FF63BFBE3F5F58F1714 /* PBXTargetDependency */,
+				FC38B8B03F92D634BB8B57AD3EB82E8C /* PBXTargetDependency */,
+				0D8DF950587445930CCBD19CC4E753AA /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraTest";
+			productName = "Pods-CameraTest";
+			productReference = C4C106E29ECB7BCFF775C9B13A72C0CE /* Pods_CameraTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19BD6AC4859B9B58084504D3D02E6FB9 /* Pods-CameraTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD2FD378115C2291DD496F72360604D /* Build configuration list for PBXNativeTarget "Pods-CameraTestTests" */;
+			buildPhases = (
+				B44BF1AD1E921DFE6D078FD71F2D5A6F /* Headers */,
+				60129F7AF48C83E9E8159DFCADCC16EA /* Sources */,
+				629FC4F45C44164E62B3DF7179C371FE /* Frameworks */,
+				13168131D577B9D73A4C1BF3D6037C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BCBFDD8BCB7DCA1B939BC686E5FFFD /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraTestTests";
+			productName = "Pods-CameraTestTests";
+			productReference = BE307C5F80E30D9FFCE445E8D441E9D6 /* Pods_CameraTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61548F6F21CD0AD86E3D9A664647652E /* Pods-CameraTest-CameraTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA3F8B2BCF1F328840F308FF236792D /* Build configuration list for PBXNativeTarget "Pods-CameraTest-CameraTestUITests" */;
+			buildPhases = (
+				E0789E7875999EBEA2C03706E92D9F27 /* Headers */,
+				2623008F7FA6F3F53F775E4CA8B599C8 /* Sources */,
+				E5EB79B65FAA3C68BBF9F418C69D0764 /* Frameworks */,
+				BC82F0EEAC9608919B2AEC3F46CD2A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6062C4B03B3DBAB2F38560EC8D3B8F6B /* PBXTargetDependency */,
+				3B87592572FBB859F539653E33879059 /* PBXTargetDependency */,
+				8CEBFF2887E0552DC068F8EB9F7F5B51 /* PBXTargetDependency */,
+				200B9BE7DA07F1019B7FA24681BEA653 /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraTest-CameraTestUITests";
+			productName = "Pods-CameraTest-CameraTestUITests";
+			productReference = 2BEE8C010F87BAC2725655F751787844 /* Pods_CameraTest_CameraTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B895EAA9D28FE9D8006EC67B638AF58 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				5114C1455F7EFC527EB179EC7500AA07 /* Headers */,
+				21A5CFD02DDC20FA09AEE1FC3B53920B /* Sources */,
+				5DBBC44438C6A528D5E29D9414569E28 /* Frameworks */,
+				A00F2F4BE1EE7662866E4C5986D5518E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A3B6F57337FCBD1F4C29926A42B08F /* PBXTargetDependency */,
+				3AF187150C83B200CB242039DFB99855 /* PBXTargetDependency */,
+			);
+			name = FlutterPluginRegistrant;
+			productName = FlutterPluginRegistrant;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93BDAB4CF1E3C54A5085BF6D4261FB6A /* camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F79CC598E94C0062715D4CBF9855925 /* Build configuration list for PBXNativeTarget "camera" */;
+			buildPhases = (
+				A7C861F640CA57537C31F67CBCBF88BF /* Headers */,
+				A820E2BD1EE1DC4F96E4081B3EBBE767 /* Sources */,
+				09C854A862EE71A3E0DA454DD6A31CE6 /* Frameworks */,
+				FD1A72304B4DFB07C030A5857CA7F8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3111347C74A1E1E1A9701AB2EAE44B /* PBXTargetDependency */,
+			);
+			name = camera;
+			productName = camera;
+			productReference = B5D52D8AEEC3E774D19ED52FAC9CB363 /* camera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C82957B2D134537EA0413E0FC72ADCAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BDAB4CF1E3C54A5085BF6D4261FB6A /* camera */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				E55D6D9CE3B34ED87310823EE348579B /* my_flutter */,
+				18FD1D70EA23451D9DE84943F2C37D06 /* Pods-CameraTest */,
+				61548F6F21CD0AD86E3D9A664647652E /* Pods-CameraTest-CameraTestUITests */,
+				19BD6AC4859B9B58084504D3D02E6FB9 /* Pods-CameraTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13168131D577B9D73A4C1BF3D6037C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D43FF27E6F2B329AFAECD9498DC84CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F2F4BE1EE7662866E4C5986D5518E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82F0EEAC9608919B2AEC3F46CD2A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A72304B4DFB07C030A5857CA7F8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A5CFD02DDC20FA09AEE1FC3B53920B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58E192FB55FAAD5C1BCFF3398FE0D00 /* FlutterPluginRegistrant-dummy.m in Sources */,
+				6E6B6CF822C25624B9A972B73BE3F667 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623008F7FA6F3F53F775E4CA8B599C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15ED3E4EC7590B0C2985A56B6394060 /* Pods-CameraTest-CameraTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60129F7AF48C83E9E8159DFCADCC16EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6BB13A9402EE50428E508CEA1889D2 /* Pods-CameraTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F34F721A498921ECF68EAA89ACE05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EF142C8AA103D5D864FF6D1117EF5C /* Pods-CameraTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A820E2BD1EE1DC4F96E4081B3EBBE767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBAECFE0AA35FF3783BAC7F9C94CF8C /* camera-dummy.m in Sources */,
+				7894C8A139FCC13E241543BE09CB042D /* CameraPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D8DF950587445930CCBD19CC4E753AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = my_flutter;
+			target = E55D6D9CE3B34ED87310823EE348579B /* my_flutter */;
+			targetProxy = C598DF98DA3DD452440DE9A50C7C4904 /* PBXContainerItemProxy */;
+		};
+		200B9BE7DA07F1019B7FA24681BEA653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = my_flutter;
+			target = E55D6D9CE3B34ED87310823EE348579B /* my_flutter */;
+			targetProxy = 7B2936B6480CA63B6AD51E7DC974CDEA /* PBXContainerItemProxy */;
+		};
+		3AF187150C83B200CB242039DFB99855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = camera;
+			target = 93BDAB4CF1E3C54A5085BF6D4261FB6A /* camera */;
+			targetProxy = B56DB65E401C94CCDF148E69961558FA /* PBXContainerItemProxy */;
+		};
+		3B87592572FBB859F539653E33879059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 8220508D88DCAFF92B9ECAF9D202FE28 /* PBXContainerItemProxy */;
+		};
+		489C2A67E0DFF640218C554810758A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 2D8C98DE9078067EF27E211FFAC204EC /* PBXContainerItemProxy */;
+		};
+		5B16ED5A96435FF63BFBE3F5F58F1714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 0BE07B0B56B51FBC1ECC0A79ECEC1DCA /* PBXContainerItemProxy */;
+		};
+		6062C4B03B3DBAB2F38560EC8D3B8F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 38C557206F6AF4952B82A46921DD4D89 /* PBXContainerItemProxy */;
+		};
+		8CEBFF2887E0552DC068F8EB9F7F5B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = camera;
+			target = 93BDAB4CF1E3C54A5085BF6D4261FB6A /* camera */;
+			targetProxy = 905111B25C8575EA85A2704086FC4264 /* PBXContainerItemProxy */;
+		};
+		9A166F6F17A3AF565EE07D30E6528529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 72C00ABAF1C47A3FFC0B9EB93098D044 /* PBXContainerItemProxy */;
+		};
+		A9A3B6F57337FCBD1F4C29926A42B08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = D0CD7B92CC4835C5D5FE7FEB1D25A99B /* PBXContainerItemProxy */;
+		};
+		A9BCBFDD8BCB7DCA1B939BC686E5FFFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CameraTest";
+			target = 18FD1D70EA23451D9DE84943F2C37D06 /* Pods-CameraTest */;
+			targetProxy = 1024E87B1FAFE487E7805D2490A6D876 /* PBXContainerItemProxy */;
+		};
+		AF3111347C74A1E1E1A9701AB2EAE44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 021ABCC0444C8BAB7A9D4EEC069A5CCB /* PBXContainerItemProxy */;
+		};
+		FC38B8B03F92D634BB8B57AD3EB82E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = camera;
+			target = 93BDAB4CF1E3C54A5085BF6D4261FB6A /* camera */;
+			targetProxy = A6A9E863FD88174269049616153C06D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A7317B5454F861BCA85B5462562709C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37CFDB9BF78F9934FE9E480D990A31D /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E5D9E2CE46D3DBB4ABDC5F12F764D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C0A6BC2B9578AFE7DA0AD099074B6E /* Pods-CameraTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTestTests/Pods-CameraTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTestTests/Pods-CameraTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42A9787C809443EAAD296C2E6572E684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C968C5010FF1F9CE39878A6DDE84348A /* my_flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B085F800AB9DB08EDEA4E050F9FCE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AFDBDA13CB49B8D0D5EC85120C5AD0 /* camera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/camera/camera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/camera/camera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/camera/camera.modulemap";
+				PRODUCT_MODULE_NAME = camera;
+				PRODUCT_NAME = camera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D32307ED3E7F870FDA100740461985E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF28B124BEC909855B84C430A9E0CC7B /* Pods-CameraTest-CameraTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTest-CameraTestUITests/Pods-CameraTest-CameraTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTest-CameraTestUITests/Pods-CameraTest-CameraTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73ADA259A8881A189EF7D338792ACFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902E9D908675CD80BE919C19641D526B /* Pods-CameraTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTest/Pods-CameraTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTest/Pods-CameraTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78CEB5392644E0A90CD54E975BD9772B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7FAA4A35A6F8C3113D2C4CA37F613A /* Pods-CameraTest-CameraTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTest-CameraTestUITests/Pods-CameraTest-CameraTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTest-CameraTestUITests/Pods-CameraTest-CameraTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F19481488AED2D87E75C5AFAC6882A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA60DACC762D57208A9CEDF6AB77E54 /* Pods-CameraTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTestTests/Pods-CameraTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTestTests/Pods-CameraTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87D8F4D273EB644FC9CF909C4CF5C83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F0B0953451BACD6D0857D105450208 /* Pods-CameraTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraTest/Pods-CameraTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraTest/Pods-CameraTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95241C1D9C6F622DEA89756FE9430752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2735A33DFE3B58531B766285440519 /* my_flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4C9C95D930E1D9DFF9983EF080EF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFA9A035129E94B6F71706005D90A1C /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6797DB9EC0D228E2A57969534F4677F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4722FA22CCB47981C66F45DA8525CE86 /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C265BEEEE55B209227ABC58A22381E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5D06232F48BF3C73A48B48647C2731 /* camera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/camera/camera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/camera/camera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/camera/camera.modulemap";
+				PRODUCT_MODULE_NAME = camera;
+				PRODUCT_NAME = camera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D565E6C0D5E50CBD636570530C4D9D8 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B895EAA9D28FE9D8006EC67B638AF58 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6797DB9EC0D228E2A57969534F4677F /* Debug */,
+				9B4C9C95D930E1D9DFF9983EF080EF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */,
+				1A7317B5454F861BCA85B5462562709C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C792E54AC4475FF5A5E1AFC957AE2D /* Build configuration list for PBXNativeTarget "Pods-CameraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D8F4D273EB644FC9CF909C4CF5C83A /* Debug */,
+				73ADA259A8881A189EF7D338792ACFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849A22C2DED0B4BF8163DE13588D9B65 /* Build configuration list for PBXAggregateTarget "my_flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A9787C809443EAAD296C2E6572E684 /* Debug */,
+				95241C1D9C6F622DEA89756FE9430752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F79CC598E94C0062715D4CBF9855925 /* Build configuration list for PBXNativeTarget "camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B085F800AB9DB08EDEA4E050F9FCE5C /* Debug */,
+				C265BEEEE55B209227ABC58A22381E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD2FD378115C2291DD496F72360604D /* Build configuration list for PBXNativeTarget "Pods-CameraTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E5D9E2CE46D3DBB4ABDC5F12F764D2 /* Debug */,
+				7F19481488AED2D87E75C5AFAC6882A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA3F8B2BCF1F328840F308FF236792D /* Build configuration list for PBXNativeTarget "Pods-CameraTest-CameraTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CEB5392644E0A90CD54E975BD9772B /* Debug */,
+				6D32307ED3E7F870FDA100740461985E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

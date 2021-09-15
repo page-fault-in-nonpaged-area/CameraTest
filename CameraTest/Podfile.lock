@@ -1,0 +1,35 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - camera
+    - Flutter
+  - my_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - camera (from `../my_flutter/.ios/.symlinks/plugins/camera/ios`)
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  camera:
+    :path: "../my_flutter/.ios/.symlinks/plugins/camera/ios"
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  camera: b9eb73c055259c6f808a9da4a0d43780f6645281
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: 212ef873e1db16b2c168e451fb4a2ba980aab1ff
+  my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
+
+PODFILE CHECKSUM: 30196ba7590b2e0bff4bec80f70408cd5517165c
+
+COCOAPODS: 1.10.1

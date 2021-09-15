@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CameraTest/Pods-CameraTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/camera/camera.framework
+${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter
